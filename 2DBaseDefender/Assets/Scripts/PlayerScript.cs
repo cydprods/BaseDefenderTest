@@ -48,6 +48,32 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("up"))
+        {
+            bulletSize++;
+        }
+        if (Input.GetKeyDown("down"))
+        {
+            bulletSize--;
+            if (bulletSize < 0)
+            {
+                bulletSize = 0;
+            }
+        }
+
+        if (Input.GetKeyDown("right"))
+        {
+            bulletSpeed++;
+        }
+        if (Input.GetKeyDown("left"))
+        {
+            bulletSpeed--;
+            if (bulletSpeed < 0)
+            {
+                bulletSpeed = 0;
+            }
+        }
+
         hpWallText.text = hpWall + "/200";
         if (Input.GetMouseButtonDown(1))
         {
