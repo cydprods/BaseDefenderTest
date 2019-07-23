@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Enemy1Script : MonoBehaviour
 {
-    public float Speed = 2f;
+    
     public int healthPoints = 100;
+    public int damageAmount = 10;
+    public float Speed = 2f;
     public bool attackPosition = false;
     public Animator animator;
+
     private GameObject OtherGO;
     private PlayerScript Other;
     // Start is called before the first frame update
@@ -40,6 +43,7 @@ public class Enemy1Script : MonoBehaviour
         {
             healthPoints -= 45;
             Destroy(other.gameObject);
+            Debug.Log(healthPoints);
         }
         if (other.CompareTag("MeleeAttack"))
         {
@@ -52,7 +56,8 @@ public class Enemy1Script : MonoBehaviour
     {
         if (attackPosition == true)
         {
-            Other.hpWall -= 10;
+            Other.hpWall -= damageAmount;
+            Other.healthBar.fillAmount = Other.hpWall / Other.health;
         }
     }
 }

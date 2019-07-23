@@ -5,9 +5,12 @@ using UnityEngine;
 
 public class Enemy2Script : MonoBehaviour
 {
-    public bool attackPosition = false;
+    
     public int healthPoints = 40;
+    public int damageAmount = 10;
     public float Speed = 3.5f;
+    public bool attackPosition = false;
+
     private GameObject OtherGO;
     private PlayerScript Other;
     // Start is called before the first frame update
@@ -50,7 +53,8 @@ public class Enemy2Script : MonoBehaviour
     {
         if (attackPosition == true)
         {
-            Other.hpWall -= 10;
+            Other.hpWall -= damageAmount;
+            Other.healthBar.fillAmount = Other.hpWall / Other.health;
         }
     }
 }

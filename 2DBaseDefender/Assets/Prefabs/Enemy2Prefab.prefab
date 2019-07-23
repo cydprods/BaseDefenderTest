@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5391162635222001119}
   - component: {fileID: 3534662879661685892}
   - component: {fileID: 2189093636267576798}
-  - component: {fileID: 375152418889111901}
   - component: {fileID: 4556953308960838688}
+  - component: {fileID: 375152418889111901}
   m_Layer: 0
   m_Name: Enemy2Prefab
   m_TagString: Untagged
@@ -130,21 +130,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 1.4}
   m_EdgeRadius: 0
---- !u!114 &375152418889111901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2654320846983470235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f210409bf25431e48959c4fe9dfd15bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackPosition: 0
-  healthPoints: 40
-  Speed: 3
 --- !u!95 &4556953308960838688
 Animator:
   serializedVersion: 3
@@ -164,3 +149,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &375152418889111901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654320846983470235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f210409bf25431e48959c4fe9dfd15bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 40
+  damageAmount: 5
+  Speed: 3
+  attackPosition: 0

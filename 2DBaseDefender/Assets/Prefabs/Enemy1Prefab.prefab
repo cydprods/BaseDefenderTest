@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4589627396903090036}
-  - component: {fileID: 1255761365472801366}
   - component: {fileID: 5369671904566398723}
   - component: {fileID: 4342613432226922337}
   - component: {fileID: 8841220381578243471}
   - component: {fileID: 4282543634510252432}
+  - component: {fileID: 1255761365472801366}
   m_Layer: 0
   m_Name: Enemy1Prefab
   m_TagString: Enemy
@@ -35,23 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1255761365472801366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5383483955927067009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641d2e4897280c447b8a23269f4365e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 1.5
-  healthPoints: 100
-  attackPosition: 0
-  animator: {fileID: 4282543634510252432}
-  OtherGameObject: {fileID: 0}
 --- !u!50 &5369671904566398723
 Rigidbody2D:
   serializedVersion: 4
@@ -166,3 +149,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1255761365472801366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383483955927067009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641d2e4897280c447b8a23269f4365e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 100
+  damageAmount: 15
+  Speed: 1.5
+  attackPosition: 0
+  animator: {fileID: 4282543634510252432}
