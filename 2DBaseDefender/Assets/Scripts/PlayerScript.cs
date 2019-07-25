@@ -13,10 +13,10 @@ public class PlayerScript : MonoBehaviour
     public bool ShootAvailable = true;
     public float ReloadTime = 0.5f;
     public Text hpWallText;
-    public Text WaveText;
-    public int hpWall;
-    public int bulletSize = 1;  //The size of the bullet
-    public int bulletSpeed = 1; //The speed of the bullet
+    public int bulletSize;  //The size of the bullet
+    public int bulletSpeed; //The speed of the bullet
+    public Text SpeedText;
+    public Text SizeText;
 
     [HideInInspector]
     public float health;
@@ -27,10 +27,10 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        hpWall = 200;
+        bulletSize = 3;
+        bulletSpeed = 5;
+        health = 200;
         ReloadTime = 0.5f;
-
-        health = hpWall;
     }
     void EnemyRespawn()
     {
@@ -48,6 +48,9 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        hpWallText.text = health + "/200";
+        SpeedText.text = bulletSpeed.ToString();
+        SizeText.text = bulletSize.ToString();
         if (Input.GetKeyDown("up"))
         {
             bulletSize++;
@@ -74,7 +77,6 @@ public class PlayerScript : MonoBehaviour
             }
         }
 
-        hpWallText.text = hpWall + "/200";
         if (Input.GetMouseButtonDown(1))
         {
             EnemyRespawn();
@@ -89,15 +91,13 @@ public class PlayerScript : MonoBehaviour
             BulletPrefab.transform.localScale = new Vector3(1,1,1) * bulletSize;
             
             // Changing the speed of the bullet
-            if (BulletPrefab.GetComponent<BulletFollowCursor>().Speed != 0)
-            {
-                BulletPrefab.GetComponent<BulletFollowCursor>().Speed = bulletSpeed;
-            }
+            BulletPrefab.GetComponent<BulletFollowCursor>().Speed = bulletSpeed;
+
             
             StartCoroutine(Reload());
             ShootAvailable = false;
         }
-        if (hpWall <= 0)
+        if (health <= 0)
         {
             ShootAvailable = false;
             Time.timeScale = 0;
