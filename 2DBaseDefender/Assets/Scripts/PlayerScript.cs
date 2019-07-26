@@ -15,14 +15,13 @@ public class PlayerScript : MonoBehaviour
     public Text hpWallText;
     public Text WaveText;
     public int hpWall;
-    public int bulletSize = 1;  //The size of the bullet
-    public int bulletSpeed = 1; //The speed of the bullet
+    public int bulletSize;  //The size of the bullet
+    public int bulletSpeed; //The speed of the bullet
 
     [HideInInspector]
     public float health;
 
     private float Range;
-    
 
     // Start is called before the first frame update
     void Start()
@@ -32,19 +31,7 @@ public class PlayerScript : MonoBehaviour
 
         health = hpWall;
     }
-    void EnemyRespawn()
-    {
-            Range = Random.Range(-1, 1);
-            Debug.Log(Range);
-            if (Range == 0)
-            {
-                Instantiate(Enemy1Prefab, new Vector2(6, -2), Quaternion.identity);
-            }
-            else
-            {
-                Instantiate(Enemy2Prefab, new Vector2(6, 1), Quaternion.identity);
-            }
-    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -82,17 +69,17 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && ShootAvailable==true)
         {
 
-            //ShootAnimation.Play("PlayerShooting");
-            Instantiate(BulletPrefab, ShootingPosition.transform.position, Quaternion.identity);
-            
             // Changing the size of the bullet
-            BulletPrefab.transform.localScale = new Vector3(1,1,1) * bulletSize;
-            
+            BulletPrefab.transform.localScale = new Vector3(1, 1, 1) * bulletSize;
+
             // Changing the speed of the bullet
             if (BulletPrefab.GetComponent<BulletFollowCursor>().Speed != 0)
             {
                 BulletPrefab.GetComponent<BulletFollowCursor>().Speed = bulletSpeed;
             }
+
+            //ShootAnimation.Play("PlayerShooting");
+            Instantiate(BulletPrefab, ShootingPosition.transform.position, Quaternion.identity);
             
             StartCoroutine(Reload());
             ShootAvailable = false;
@@ -104,6 +91,21 @@ public class PlayerScript : MonoBehaviour
             hpWallText.text = "You lost";
         }
     }
+
+    void EnemyRespawn()
+    {
+        Range = Random.Range(-1, 1);
+        Debug.Log(Range);
+        if (Range == 0)
+        {
+            Instantiate(Enemy1Prefab, new Vector2(6, -2), Quaternion.identity);
+        }
+        else
+        {
+            Instantiate(Enemy2Prefab, new Vector2(6, 1), Quaternion.identity);
+        }
+    }
+
     IEnumerator Reload()
     {
         yield return new WaitForSecondsRealtime(ReloadTime);
