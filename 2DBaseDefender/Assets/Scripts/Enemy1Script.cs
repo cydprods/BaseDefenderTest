@@ -56,8 +56,8 @@ public class Enemy1Script : MonoBehaviour
     {
         if (attackPosition == true)
         {
-            Other.hpWall -= damageAmount;
-            Other.healthBar.fillAmount = Other.hpWall / Other.health;
+            Other.health -= damageAmount;
+            Other.healthBar.fillAmount = Other.health;
         }
     }
 }
