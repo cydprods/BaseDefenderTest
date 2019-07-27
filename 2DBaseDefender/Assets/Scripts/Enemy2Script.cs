@@ -53,8 +53,9 @@ public class Enemy2Script : MonoBehaviour
     {
         if (attackPosition == true)
         {
-            Other.health -= damageAmount;
-            Other.healthBar.fillAmount =Other.health;
+            Other.hpWall -= damageAmount;
+            // You need to make this operation(division) because it gives a percentage which is going to be given as a float value that the fillAmount method uses...
+           Other.healthBar.fillAmount = Other.hpWall / Other.health;
         }
     }
 }

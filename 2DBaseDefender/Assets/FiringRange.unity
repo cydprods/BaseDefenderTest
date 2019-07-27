@@ -1042,8 +1042,7 @@ MonoBehaviour:
   ShootAvailable: 1
   ReloadTime: 0.5
   hpWallText: {fileID: 1697656025}
-  WaveText: {fileID: 0}
-  hpWall: 0
+  hpWall: 200
   bulletSize: 3
   bulletSpeed: 10
   health: 0
