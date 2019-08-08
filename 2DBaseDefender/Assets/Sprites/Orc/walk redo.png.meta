@@ -1,0 +1,721 @@
+fileFormatVersion: 2
+guid: d78d1c1f469830f419e1f92872b59a3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2828480313084774967
+    second: walk redo_0
+  - first:
+      213: -6055976482333740300
+    second: walk redo_1
+  - first:
+      213: -4291956390218764935
+    second: walk redo_2
+  - first:
+      213: -7862569682248024247
+    second: walk redo_3
+  - first:
+      213: 1435589991614141400
+    second: walk redo_4
+  - first:
+      213: 5174421082088622957
+    second: walk redo_5
+  - first:
+      213: 4663178877376588784
+    second: walk redo_6
+  - first:
+      213: 4978662409631015545
+    second: walk redo_7
+  - first:
+      213: 516318311593708044
+    second: walk redo_8
+  - first:
+      213: -5771814884959960110
+    second: walk redo_9
+  - first:
+      213: 5015444543918430399
+    second: walk redo_10
+  - first:
+      213: 199465468818311458
+    second: walk redo_11
+  - first:
+      213: -2653284563713308289
+    second: walk redo_12
+  - first:
+      213: -3959562433194470273
+    second: walk redo_13
+  - first:
+      213: 5930062243807496906
+    second: walk redo_14
+  - first:
+      213: -4565927368619984549
+    second: walk redo_15
+  - first:
+      213: 2282264983332845579
+    second: walk redo_16
+  - first:
+      213: 2758787549304873121
+    second: walk redo_17
+  - first:
+      213: -3849236315352179185
+    second: walk redo_18
+  - first:
+      213: 6218056803827571269
+    second: walk redo_19
+  - first:
+      213: -2488828302657698243
+    second: walk redo_20
+  - first:
+      213: 65166345301182817
+    second: walk redo_21
+  - first:
+      213: -791246943800099952
+    second: walk redo_22
+  - first:
+      213: 7380801778774691354
+    second: walk redo_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walk redo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cf787ec851e674fa445912c546b783
+      internalID: -2828480313084774967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 7192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faa23c4a6c4d3546a2fef63e9604c2a
+      internalID: -6055976482333740300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 7192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075f4f79297e775428663df68604fe22
+      internalID: -4291956390218764935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2737991439ec5a47a34c1dd452e3f73
+      internalID: -7862569682248024247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6a48aac3604ce40aab2d8c80c9ccf8
+      internalID: 1435589991614141400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeb55ac9b63a4e40bccfcfb7c593f7d
+      internalID: 5174421082088622957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 6192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd8b3b74e9b77b4eafa6f601b8b9e13
+      internalID: 4663178877376588784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9750bcd7c1b0cf44e9833ce1aad2ea0e
+      internalID: 4978662409631015545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819c1073b5a3d454fa008f25fcad3c72
+      internalID: 516318311593708044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_9
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371b7baf30f6e5a479f48c3707747412
+      internalID: -5771814884959960110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb346f0d13d15874d8780ff6cbb780bd
+      internalID: 5015444543918430399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44f1e52f6c79fb498a174a6659265db
+      internalID: 199465468818311458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_12
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679851cd71ed62f41a177015bb22217a
+      internalID: -2653284563713308289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_13
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666c3b8a9b57875478fa89af96ae229a
+      internalID: -3959562433194470273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_14
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fecc26bebade334fba8d05d3877d3bf
+      internalID: 5930062243807496906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de219f1166b5a8b4e9592f2bbe6334e5
+      internalID: -4565927368619984549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd934e1c1cde62542ac17ac230b771bb
+      internalID: 2282264983332845579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_17
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3632510713895664d9ce0c71a6572344
+      internalID: 2758787549304873121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_18
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af55742e92972847a69303d9c933b14
+      internalID: -3849236315352179185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_19
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff015c79005ea3744b905516561cb27e
+      internalID: 6218056803827571269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7d7d842dc924543af98212d37e9259
+      internalID: -2488828302657698243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e18968a1ff0f4288ae2a07fbbcd0b
+      internalID: 65166345301182817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_22
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d44d05f2c303746a9f297e9ca3c6ad
+      internalID: -791246943800099952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk redo_23
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3192
+        width: 800
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00676882bf3551b40b8e4a1cd08985c7
+      internalID: 7380801778774691354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c971e46809b92c843b351449881ef84e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
