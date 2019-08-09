@@ -15,6 +15,7 @@ public class PlayerScript : MonoBehaviour
     public float ReloadTime = 0.5f;
     public Text hpWallText;
 
+
     public int hpWall = 200;       //This is the current health
     public int mpPoints;           //The MP points the player can collect
     public int bulletSize;         //The size of the bullet
@@ -27,6 +28,11 @@ public class PlayerScript : MonoBehaviour
 
     private float Range;
     private int MPcost;                //Cost of MP points.
+
+    public Text SizeText;
+    public Text SpeedText;
+    private float SpeedValue;
+    private float SizeValue;
 
     // Start is called before the first frame update
     void Start()
@@ -95,6 +101,30 @@ public class PlayerScript : MonoBehaviour
             ShootAvailable = false;
             Time.timeScale = 0;
             hpWallText.text = "You lost";
+        }
+        if (Input.GetKeyDown("w"))
+        {
+            float.TryParse(SpeedText.text, out SpeedValue);
+            SpeedValue += 0.1f;
+            SpeedText.text = SpeedValue.ToString("0.00");
+        }
+        if (Input.GetKeyDown("s"))
+        {
+            float.TryParse(SpeedText.text, out SpeedValue);
+            SpeedValue -= 0.1f;
+            SpeedText.text = SpeedValue.ToString("0.00");
+        }
+        if (Input.GetKeyDown("q"))
+        {
+            float.TryParse(SizeText.text, out SizeValue);
+            SizeValue += 0.1f;
+            SizeText.text = SizeValue.ToString("0.00");
+        }
+        if (Input.GetKeyDown("a"))
+        {
+            float.TryParse(SizeText.text, out SizeValue);
+            SizeValue -= 0.1f;
+            SizeText.text = SizeValue.ToString("0.00");
         }
     }
 
