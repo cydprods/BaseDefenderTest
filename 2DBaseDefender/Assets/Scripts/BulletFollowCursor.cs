@@ -7,20 +7,22 @@ public class BulletFollowCursor : MonoBehaviour
 {
     public float Speed = 5;
     private Vector2 mousePos;
+    /*
     private GameObject OtherGO;
     private PlayerScript Other;
     private float SpeedValue;
     private float SizeValue;
+    */
     // Start is called before the first frame update
     void Start()
     {
-        OtherGO = GameObject.Find("Player");
-        Other =  OtherGO.GetComponent<PlayerScript>();
+        //OtherGO = GameObject.Find("Player");
+        //Other =  OtherGO.GetComponent<PlayerScript>();
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        float.TryParse(Other.SpeedText.text, out SpeedValue);
-        Speed = SpeedValue;
-        float.TryParse(Other.SizeText.text, out SizeValue);
-        transform.localScale = new Vector3(SizeValue, SizeValue, 1);
+        //float.TryParse(Other.SpeedText.text, out SpeedValue);
+        //Speed = SpeedValue;
+        //float.TryParse(Other.SizeText.text, out SizeValue);
+        //transform.localScale = new Vector3(SizeValue, SizeValue, 1);
     }
 
     // Update is called once per frame

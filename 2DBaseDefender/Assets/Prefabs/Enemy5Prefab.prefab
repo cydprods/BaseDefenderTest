@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4556953308960838688}
   - component: {fileID: 375152418889111901}
   m_Layer: 0
-  m_Name: Enemy2Prefab
+  m_Name: Enemy5Prefab
   m_TagString: FlyingEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a4fe6a980fd50ec4e966776ce0f30ae2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.30546972, g: 0.990566, b: 0.21960661, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

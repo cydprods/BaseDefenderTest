@@ -29,11 +29,6 @@ public class PlayerScript : MonoBehaviour
     private float Range;
     private int MPcost;                //Cost of MP points.
 
-    public Text SizeText;
-    public Text SpeedText;
-    private float SpeedValue;
-    private float SizeValue;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -92,7 +87,7 @@ public class PlayerScript : MonoBehaviour
 
             //ShootAnimation.Play("PlayerShooting");
             Instantiate(BulletPrefab, ShootingPosition.transform.position, Quaternion.identity);
-            
+
             StartCoroutine(Reload());
             ShootAvailable = false;
         }
@@ -102,30 +97,7 @@ public class PlayerScript : MonoBehaviour
             Time.timeScale = 0;
             hpWallText.text = "You lost";
         }
-        if (Input.GetKeyDown("w"))
-        {
-            float.TryParse(SpeedText.text, out SpeedValue);
-            SpeedValue += 0.1f;
-            SpeedText.text = SpeedValue.ToString("0.00");
-        }
-        if (Input.GetKeyDown("s"))
-        {
-            float.TryParse(SpeedText.text, out SpeedValue);
-            SpeedValue -= 0.1f;
-            SpeedText.text = SpeedValue.ToString("0.00");
-        }
-        if (Input.GetKeyDown("q"))
-        {
-            float.TryParse(SizeText.text, out SizeValue);
-            SizeValue += 0.1f;
-            SizeText.text = SizeValue.ToString("0.00");
-        }
-        if (Input.GetKeyDown("a"))
-        {
-            float.TryParse(SizeText.text, out SizeValue);
-            SizeValue -= 0.1f;
-            SizeText.text = SizeValue.ToString("0.00");
-        }
+        
     }
 
     void EnemyRespawn()

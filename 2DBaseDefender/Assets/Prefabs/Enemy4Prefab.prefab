@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8490202400075292430}
   - component: {fileID: 8309506701069762734}
   m_Layer: 0
-  m_Name: Enemy3Prefab
+  m_Name: Enemy4Prefab
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,7 +121,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -8296385383580801948, guid: ea82073a9140b6947928c30bf91903f2,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.21226418, b: 0.21226418, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
